@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.myapplication.MainActivity">
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/actionHome"
+          android:title="Home"
+          android:orderInCategory="100"
+          android:icon="@drawable/ic_attach_money_black_24dp"
+          app:showAsAction="never"/>
+    <item android:id="@+id/actionJeans"
+          android:title="Jeans"
+          android:orderInCategory="100"
+          android:icon="@drawable/ic_attach_money_black_24dp"
+          app:showAsAction="never"/>
+    <item android:id="@+id/actionShirts"
+          android:title="Shirts"
+          android:orderInCategory="100"
+          android:icon="@drawable/ic_attach_money_black_24dp"
+          app:showAsAction="never"/>
+    <item android:id="@+id/actionSocks"
+          android:title="Socks"
+          android:orderInCategory="100"
+          android:icon="@drawable/ic_attach_money_black_24dp"
+          app:showAsAction="never"/>
+    <item android:id="@+id/actionShoes"
+          android:title="Shoes"
+          android:orderInCategory="100"
+          android:icon="@drawable/ic_attach_money_black_24dp"
+          app:showAsAction="never"/>
+    <item android:id="@+id/actionAdmin"
+          android:title="Admin"
+          android:orderInCategory="100"
+          android:icon="@drawable/ic_playlist_add_black_24dp"
+          app:showAsAction="never"/>
+    </group>
+</menu>
